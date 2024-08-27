@@ -14,3 +14,15 @@ Key Concepts in CSS
 1. Selectors: Define which HTML elements the styles will be applied to.
 
 Example: 'h1', '.className', '#idName'
+
+Lesson : 1 Understanding of Box Model
+
+Lesson : 2 Background and Borders
+
+Lesson : 3 Layout Techniques :-
+
+1. Static
+2. Relative
+3. absolute
+4. fixed
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout</title>
+  </head>
+
+  <style>
+    .static-box {
+      position: static;
+      background-color: chartreuse;
+    }
+
+    .relative-box {
+      position: relative;
+
+      left: 500px;
+      top: 40px;
+
+      background-color: antiquewhite;
+    }
+
+    .absolute-box {
+      position: absolute;
+      top: 50px;
+      left: 100px;
+
+      background-color: aquamarine;
+    }
+
+    .fixed-box {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+
+      background-color: blueviolet;
+    }
+
+    .container {
+      position: relative;
+      top: 80px;
+      border: 1px solid black;
+      width: 200px;
+      height: 200px;
+      background-color: cadetblue;
+    }
+
+    .box {
+      position: absolute;
+      top: 60px;
+      left: 20px;
+      border: 2px solid salmon;
+    }
+  </style>
+
+  <body>
+    <div class="static-box">Static</div>
+    <div class="relative-box">Relative</div>
+    <div class="absolute-box">Absolute</div>
+    <div class="fixed-box">Fixed</div>
+    <div>
+      <div class="container">
+        <div class="box">I am absolute positioned</div>
+      </div>
+    </div>
+  </body>
+</html>
