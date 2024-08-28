@@ -52,9 +52,71 @@
       left: 20px;
       border: 2px solid salmon;
     }
+body {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+header {
+  background-color: cornflowerblue;
+  color: white;
+  text-align : center;
+  padding: 10px
+  
+}
+
+nav {
+  position: sticky;
+top: 0;
+background-color: crimson;
+padding: 10px;
+font-size: 20px;
+text-align: center;
+}
+
+
+.fixed-element {
+  position: fixed;
+  border: 5px solid black;
+  top: 400px;
+  right: 20px;
+  background-color: coral;
+  color: blanchedalmond;
+  padding: 20px;
+}
+
+.content {
+  height: 2000px;
+  padding: 300px;
+  background-color: darkgoldenrod;
+  
+}
+
+section {
+  height : 1500px;
+  padding: 20px;
+  background-color: darkorange;
+
+}
+
   </style>
 
   <body>
+<header>
+  <h1>Sticky Navigation</h1>
+
+</header>
+
+<nav>I stick at the top</nav>
+
+<section>
+  <p>Scroll down to see the sticky navigation</p>
+  <p>Scroll down to see the sticky navigation</p>
+  <p>Scroll down to see the sticky navigation</p>
+
+</section>
+
     <div class="static-box">Static</div>
     <div class="relative-box">Relative</div>
     <div class="absolute-box">Absolute</div>
@@ -63,6 +125,14 @@
       <div class="container">
         <div class="box">I am absolute positioned</div>
       </div>
+    </div>
+
+    <div class="fixed-element">I am a fixed css property, I stay fixed at the top right corner</div>
+
+    <div>
+
+<p class="content">Scroll down to see the fixed element remain in place.</p>
+
     </div>
   </body>
 </html>

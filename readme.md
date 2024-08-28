@@ -25,4 +25,9 @@ Lesson : 3 Layout Techniques :-
 2. Relative
 3. absolute
 4. fixed
+5. Sticky
+
+Lesson : Flexbox
+
+
 
