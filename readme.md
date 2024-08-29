@@ -27,7 +27,36 @@ Lesson : 3 Layout Techniques :-
 4. fixed
 5. Sticky
 
-Lesson : Flexbox
+Lesson 4 : Flexbox
+
+Flexbox , 'flexible Box layout' is used for designing and align elements in a container
+
+Note : When we need to distribute the space dynamically or align items along a single axis.
+
+Key concepts and properties
+1. Container (Parent Element)
+
+display: flex
+
+flex-direction
+
+1. row
+2. row-reverse
+3. col-reverse
+4. col
+
+
+Justify content
+flex-start
+flex-end
+center
+space-between
+
+
+align-items
+flex-end
+flex-start
+
 
 
 
