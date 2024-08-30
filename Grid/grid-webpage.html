@@ -12,6 +12,11 @@
 body{
 margin: 0;
 padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: rgb(57, 52, 52);
 }
 
 .grid-container {
@@ -84,26 +89,6 @@ padding: 20px;
 text-align: center;
 border-radius: 10px;
 }
-
-
-
-@media (max-width: 800px) {
-
-    .grid-container {
-
-    grid-template-areas:
-
-"header"
-"content1"
-"sidebar"
-"content2"
-"content3"
-"footer";
-grid-template-columns: 1fr;
-
-}
-}
-
     
 
 </style>
