@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Document</title>
+
+    <style>
+body{
+margin: 0;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color: cornsilk;
+}
+
+
+header {
+    background-color: coral;
+    color: crimson;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.container {
+
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+
+
+}
+
+.content {
+display: flex;
+flex-direction: column;
+padding: 1em 0;
+}    
+
+
+.content div {
+    background:cornflowerblue;
+    padding: 1em;
+    margin: 1em 0;
+    border: 1px solid black;
+}
+
+
+footer{
+background-color: crimson;
+color: white;
+text-align: center;
+padding: 1em 0;
+position: fixed;
+bottom: 0;
+width: 100%;
+
+}
+
+@media (min-width: 600px) {
+    .content{
+        flex-direction: row;
+    
+    }
+
+    .content div {
+        flex: 1;
+        margin: 1em;
+    }
+
+}
+
+@media (min-width:900px) {
+    .container{
+        width: 80%;
+    }
+
+.content div {
+    margin: 1em;
+}
+
+}
+
+
+    </style>
+
+
+
+
+</head>
+
+<body>
+<header>Responsive Design Example</header>
+
+
+
+<div class="container">
+<div class="content">
+    <div>box 1</div>        
+    <div>box 2</div>        
+    <div>box 3</div>        
+    
+</div>
+
+
+</div>
+<h1 class="text-4xl font-bold underline bg-orange-300 ">
+    Hello world!
+  </h1>
+
+
+<footer>
+    <p>&copy; 2024  Responsive design HTS Learn</p>
+</footer>
+
+    
+</body>
+</html>
